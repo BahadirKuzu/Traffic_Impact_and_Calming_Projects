@@ -1,26 +1,50 @@
-# Traffic Calming Methods and Applications
+# Traffic Impact & Calming Projects
+
+• Traffic Impact and Calming Projects                            09/2024  
+  Assessed mixed-use traffic impacts and evaluated traffic-calming strategies in Los Angeles, Chicago, and Miami.
 
 ## Overview
-This repository contains a comprehensive review of traffic calming methods and their applications in urban planning. The report explores various strategies, including speed humps, chicanes, road narrowing, and traffic circles, focusing on their effectiveness in improving road safety and pedestrian environments.
+This repository unifies a comprehensive review of traffic calming methods with a full traffic impact study for a proposed mixed-use development. It shows how field data, forecasting, capacity analysis, and context-appropriate calming tools can reduce speeds, improve safety, and support more livable streets—while navigating funding, public acceptance, and maintenance constraints.
 
-## Case Studies
-The report includes detailed analyses of traffic calming implementations in:
-- **Los Angeles**: Focus on speed humps and chicanes.
-- **Chicago**: Emphasis on traffic circles and road diets as part of the Vision Zero initiative.
-- **Miami**: Highlighting the effectiveness of raised crosswalks in pedestrian-heavy areas.
+## Study Areas & Case Studies
+- Los Angeles — speed humps and chicanes  
+- Chicago — traffic circles and road diets within Vision Zero  
+- Miami — raised crosswalks in pedestrian-heavy corridors  
+- Project site — Castle Drive, Jones Avenue, Main Street influence area
 
-## Content
-- **Traffic Calming Methods**: In-depth explanations of techniques like speed humps, road narrowing, and traffic circles.
-- **Effectiveness**: Evaluation of how these measures reduce speeds, enhance safety, and improve urban livability.
-- **Challenges**: Discussion of public opposition, financial constraints, and maintenance issues.
+## Objectives & Methods
+- Estimate **AADT** using traffic counts and seasonal adjustment factors  
+- Analyze **AM/PM peak-hour** volumes and turning movements  
+- Compute **trip generation** with the **ITE Trip Generation Manual**  
+- Distribute trips directionally based on **TAZ** populations and network logic  
+- Combine existing + projected volumes to assess **capacity/LOS**  
+- Evaluate **calming strategies** (speed humps, chicanes, road diets, circles, raised crosswalks) for safety and livability outcomes  
+- Recommend **mitigation** (near-term operations; long-term multimodal and transit upgrades)
 
-## Purpose
-The goal of this study is to provide urban planners, policymakers, and researchers with valuable insights into the practical applications of traffic calming methods. It aims to demonstrate how these strategies can create safer, more inclusive streets while addressing implementation challenges.
+## Key Findings
+- The proposed development significantly increases peak-hour volumes; **PM peak** exceeds capacity at critical intersections  
+- **Near-term:** targeted lane widening and **signal optimization** improve operations  
+- **Long-term:** **multimodal** enhancements (complete streets, transit support) strengthen network resilience  
+- Calming tools reduce speeds and conflicts but require **community buy-in**, adequate **funding**, and clear **maintenance** plans
 
-## File
-- **Traffic_Calming_Report.pdf**: The complete review document.
+## Repository Structure
+- **/docs** — Final reports (Traffic Impact Study PDF, Traffic Calming Review PDF)  
+- **/data** — Counts, seasonal factors, TAZ inputs, spreadsheets  
+- **/figures** — Charts, maps, and visuals  
+- **/scripts** — (Optional) analysis/processing helpers
 
-## Usage
-This repository is publicly available for urban planning professionals, researchers, and students. Please feel free to read, reference, or share the findings to promote safer and more livable cities.
+## Files
+- **Traffic_Calming_Report.pdf** — complete calming review  
+- **Traffic_Impact_Study.pdf** — complete impact study
 
----
+## Authors & Acknowledgments
+**Bahadir Kuzu** — prepared as part of **CEE 5660: Transportation Planning**  
+**Tennessee Technological University** (Instructor: **Prof. Daniel A. Badoe**)
+
+## License
+- **Calming Review content:** GNU **AGPL-3.0**  
+- **Traffic Impact Study content:** **MIT License**  
+Each sub-project follows the license in its own folder/file. If you combine code across parts, comply with the most restrictive applicable terms.
+
+## Contact
+**Bahadir Kuzu** — 📧 **bkbahadirkuzu@gmail.com**
